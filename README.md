@@ -25,13 +25,13 @@ The repository includes separate directories for each RL model applied to both t
 
 ### CartPole Models
 - **DDDQN_CartPole**: Implementation of Double Deuling Deep Q-Network for the CartPole environment.
-- **DQRN_CartPole**: Implementation of the basic Deep Recurrent Q-Network for the CartPole environment.
+- **DRQN_CartPole**: Implementation of the basic Deep Recurrent Q-Network for the CartPole environment.
 - **PPO_CartPole**: Implementation of Proximal Policy Optimization for the CartPole environment.
 - **REINFORCE_CartPole**: Implementation of the REINFORCE algorithm for the CartPole environment.
 
 ### VizDoom Models
 - **DDDQN_Doom**: Implementation of Double Deuling Deep Q-Network for the VizDoom environment.
-- **DQN_Doom**: Implementation of the basic Deep Recurrent Q-Network for the VizDoom environment.
+- **DRQN_Doom**: Implementation of the basic Deep Recurrent Q-Network for the VizDoom environment.
 - **PPO_Doom**: Implement of the Proximal Policy Optimization for the VizDoom environment.
 - **REINFORCE_Doom**: Implement of the the REINFORCE algorithm for the VizDoom environment.
 
