@@ -39,7 +39,7 @@ The repository includes separate directories for each RL model applied to both t
 To test any of the models, navigate to the respective model directory and run the Python script associated with that model. For example, to test the PPO model in the VizDoom environment:
 
 1. Navigate to the `PPO_Doom` directory.
-2. Run the script by executing `python PPO_Doom.py` in your terminal.
+2. Run the script by executing each cell consecutively in the Jupyter Notebook.
 
 Parameters within each script can be modified to experiment with different configurations or to optimize performance based on the specific needs of the environment.
 
