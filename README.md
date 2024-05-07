@@ -13,7 +13,7 @@ In the "Defend the Center" scenario of VizDoom, the agent remains stationary at 
 **Rewards**: The agent receives +1 for each enemy killed and a -1 penalty upon death. The episode ends when the agent dies, with the objective to maximize the reward by effectively using the available ammunition and managing health against enemy attacks.
 
 ### CartPole: Benchmark
-The CartPole environment serves as a simpler benchmark to test basic RL model functionality and performance before applying them to more complex scenarios like VizDoom.
+The CartPole environment serves as a simpler benchmark to test basic RL model functionality and performance before applying them to more complex scenarios like VizDoom. The agents goal is to simply balance a pole. The cart may move and right.
 
 ## Model Directories
 The repository includes separate directories for each RL model applied to both the CartPole and VizDoom environments. Below is a list of all the available model implementations:
