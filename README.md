@@ -25,13 +25,13 @@ The repository includes separate directories for each RL model applied to both t
 
 ### CartPole Models
 - **DDDQN_CartPole**: Implementation of Double Deuling Deep Q-Network for the CartPole environment.
-- **DQRN_CartPole**: Implementation of the basic Deep Recurrent Q-Network for the CartPole environment.
+- **DRQN_CartPole**: Implementation of the basic Deep Recurrent Q-Network for the CartPole environment.
 - **PPO_CartPole**: Implementation of Proximal Policy Optimization for the CartPole environment.
 - **REINFORCE_CartPole**: Implementation of the REINFORCE algorithm for the CartPole environment.
 
 ### VizDoom Models
 - **DDDQN_Doom**: Implementation of Double Deuling Deep Q-Network for the VizDoom environment.
-- **DQN_Doom**: Implementation of the basic Deep Recurrent Q-Network for the VizDoom environment.
+- **DRQN_Doom**: Implementation of the basic Deep Recurrent Q-Network for the VizDoom environment.
 - **PPO_Doom**: Implement of the Proximal Policy Optimization for the VizDoom environment.
 - **REINFORCE_Doom**: Implement of the the REINFORCE algorithm for the VizDoom environment.
 
@@ -39,7 +39,7 @@ The repository includes separate directories for each RL model applied to both t
 To test any of the models, navigate to the respective model directory and run the Python script associated with that model. For example, to test the PPO model in the VizDoom environment:
 
 1. Navigate to the `PPO_Doom` directory.
-2. Run the script by executing `python PPO_Doom.py` in your terminal.
+2. Run the script by executing each cell consecutively in the Jupyter Notebook.
 
 Parameters within each script can be modified to experiment with different configurations or to optimize performance based on the specific needs of the environment.
 
