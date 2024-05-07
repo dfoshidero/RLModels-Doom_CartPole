@@ -13,7 +13,12 @@ In the "Defend the Center" scenario of VizDoom, the agent remains stationary at 
 **Rewards**: The agent receives +1 for each enemy killed and a -1 penalty upon death. The episode ends when the agent dies, with the objective to maximize the reward by effectively using the available ammunition and managing health against enemy attacks.
 
 ### CartPole: Benchmark
-The CartPole environment serves as a simpler benchmark to test basic RL model functionality and performance before applying them to more complex scenarios like VizDoom. The agents goal is to simply balance a pole. The cart may move and right.
+The CartPole environment serves as a simpler benchmark to test basic RL model functionality and performance before applying them to more complex scenarios like VizDoom.
+
+**Objective**: The agent's task is to balance a pole mounted on a cart.  
+**State Space**: The environment provides information about the cart's position and velocity, as well as the pole's angle and angular velocity.  
+**Action Space**: Two discrete actions are available: move left or move right.  
+**Rewards**: The agent receives a reward of +1 for each timestep the pole remains balanced, with the goal of maximizing the cumulative reward over the episode duration.
 
 ## Model Directories
 The repository includes separate directories for each RL model applied to both the CartPole and VizDoom environments. Below is a list of all the available model implementations:
@@ -30,7 +35,7 @@ The repository includes separate directories for each RL model applied to both t
 - **PPO_Doom**: Implement of the Proximal Policy Optimization for the VizDoom environment.
 - **REINFORCE_Doom**: Implement of the the REINFORCE algorithm for the VizDoom environment.
 
-  ## How to Run Tests
+## How to Run Tests
 To test any of the models, navigate to the respective model directory and run the Python script associated with that model. For example, to test the PPO model in the VizDoom environment:
 
 1. Navigate to the `PPO_Doom` directory.
