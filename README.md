@@ -2,6 +2,7 @@
 ## Overview
 
 This repository contains a collection of Reinforcement Learning (RL) models developed by Group 2 for the University of Bath's CM50270 module, focusing on two environments: VizDoom and CartPole. The primary goal is to train deep RL agents to effectively navigate and solve tasks in these complex simulations, abd evaluate how these models perform in simple versus more complex situations.
+
 Conducted tests can be viewed here: LINK
 
 ### VizDoom: Defend the Center
