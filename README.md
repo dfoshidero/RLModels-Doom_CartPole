@@ -47,12 +47,12 @@ Parameters within each script can be modified to experiment with different confi
 For more details on the implementation and configuration of each model, refer to the documentation and comments within each directory's scripts. This will provide insights into the specifics of the algorithms and their application to the environments.
 
 ## Contributors
-- Daniel Favour O.~Oshidero: dfoo20@bath.ac.uk
-- Claire ~He: sh3278@bath.ac.uk
-- Luis Eduardo D. A. ~Ballarati: ledab20@bath.ac.uk
-- Yan Chun ~Yeung: ycy55@bath.ac.uk
-- Ting-I ~Lei: til27@bath.ac.uk
-- Yi-An ~Lin: yal29@bath.ac.uk
+- Daniel Favour O. Oshidero: dfoo20@bath.ac.uk
+- Claire He: sh3278@bath.ac.uk
+- Luis Eduardo D. A. Ballarati: ledab20@bath.ac.uk
+- Yan Chun Yeung: ycy55@bath.ac.uk
+- Ting-I Lei: til27@bath.ac.uk
+- Yi-An Lin: yal29@bath.ac.uk
 
 For any questions or further assistance, feel free to contact the contributors at their provided email addresses.
 
