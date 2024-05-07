@@ -1,0 +1,2 @@
+model_checkpoint_path: "E:\\RLModelTraining\\Doom_DDDQN/model.ckpt"
+all_model_checkpoint_paths: "E:\\RLModelTraining\\Doom_DDDQN/model.ckpt"
