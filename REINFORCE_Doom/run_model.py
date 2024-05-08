@@ -1,7 +1,13 @@
-# Implementation of Reinforce algorithm following the tutorial series on Youtube by RL Hugh (2022)
-# Link: https://www.youtube.com/playlist?list=PLdBvOJzNTtDUO4UC7R6N6_H-TFa78dka1 
-# Original source code can be found at: https://github.com/hughperkins/youtube-rl-demos/tree/vizdoom18/vizdoom 
-# Accessed April 15th 2024.
+"""
+
+This Python script runs the Reinforce algorithm, following RL Hugh's tutorial series on YouTube (2022). 
+Ensure that the required libraries and VizDoom scenarios are correctly installed and configured to avoid runtime errors.
+
+References:
+Perkins, H., 2022. youtube-rl-demos/vizdoom at vizdoom18 · hughperkins/youtube-rl-demos [Online]. GitHub. Available from: https://github.com/hughperkins/youtube-rl-demos/tree/vizdoom18/vizdoom [Accessed 8 May 2024].
+RL Hugh, n.d. ViZDoom: reinforcement learning using PyTorch - YouTube [Online]. www.youtube.com. Available from: https://www.youtube.com/playlist?list=PLdBvOJzNTtDUO4UC7R6N6_H-TFa78dka1 [Accessed 8 May 2024].
+
+"""
 
 import argparse
 from vizdoom_lib.scenarios import scenarios
